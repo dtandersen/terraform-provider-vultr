@@ -1,5 +1,5 @@
 #provider "vultr" {
-#	api_key = "TODO_SET_TO_YOUR_API_KEY__OR__THE_VULTR_API_KEY_ENV_VARIABLE"
+#	api_key = "TODO_SET_TO_YOUR_API_KEY__OR__THE_TF_VAR_VULTR_API_KEY_ENV_VARIABLE"
 #}
 
 resource "vultr_ssh_key" "example" {

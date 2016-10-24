@@ -35,7 +35,7 @@ Copy it to the final directory:
 
 Try the example:
 
-	export VULTR_API_KEY=TODO_SET_TO_YOUR_API_KEY
+	export TF_VAR_VULTR_API_KEY=TODO_SET_TO_YOUR_API_KEY
 	cd example
 	terraform plan
 	terraform apply
